@@ -19,6 +19,7 @@ function setName() {
     localStorage.setItem(USER_LS, currentValue);
   });
 }
+
 function loadName() {
   const currentUser = localStorage.getItem(USER_LS);
   if (currentUser === null) {
