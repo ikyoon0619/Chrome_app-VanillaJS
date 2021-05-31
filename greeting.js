@@ -7,7 +7,7 @@ const USER_LS = "currentUser";
 function paintGreeting(text) {
   formEl.classList.remove("showing");
   greeting.classList.add("showing");
-  greeting.textContent = `Hello ${text}`;
+  greeting.textContent = `Have A Nice Day ! ${text}`;
 }
 
 function setName() {
