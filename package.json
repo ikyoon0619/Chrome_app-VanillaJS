@@ -1,0 +1,27 @@
+{
+  "name": "chrome-app-vanillaJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "build parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikyoon0619/Chrome_app-VanillaJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikyoon0619/Chrome_app-VanillaJS/issues"
+  },
+  "homepage": "https://github.com/ikyoon0619/Chrome_app-VanillaJS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
