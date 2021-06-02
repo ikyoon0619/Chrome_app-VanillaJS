@@ -5,7 +5,7 @@ const IMG_NUMBER = 6;
 // 생성되고 가공된 이미지 요소를 body 요소 안으로 추가한다.
 function paintImage(imgNumber) {
   const image = new Image();
-  image.src = `/images/${imgNumber}.jpg`;
+  image.src = `img/${imgNumber}.jpg`;
   body.appendChild(image);
   image.classList.add("bgImage");
 }

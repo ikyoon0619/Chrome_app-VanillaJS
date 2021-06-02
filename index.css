@@ -32,17 +32,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex:1;
+  flex: 1;
 }
-header .search-group{
+header .search-group {
   margin: 0 30px;
 }
-#searchGoogle{
+#searchGoogle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#search{
+#search {
   width: 0;
   padding: 8px;
   border: none;
@@ -50,24 +50,24 @@ header .search-group{
   font-size: 16px;
   color: #fff;
   background-color: transparent;
-  transition: .7s;
+  transition: 0.7s;
 }
-#search.show{
+#search.show {
   display: block;
   border-bottom: 2px solid #2c3e50;
   width: 300px;
 }
-#search.show .searchBtn{
+#search.show .searchBtn {
   display: none;
 }
-header .search-group .searchBtn{
+header .search-group .searchBtn {
   cursor: pointer;
   color: #fff;
   text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
 }
 
-header .js-weather{
-  margin:0 30px;
+header .js-weather {
+  margin: 0 30px;
 }
 
 /* CONTAINER */
@@ -87,7 +87,7 @@ header .js-weather{
 }
 
 /* NAME FORM */
-.js-form input{
+.js-form input {
   outline: none;
   border: none;
   width: 250px;
@@ -105,9 +105,8 @@ header .js-weather{
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
-
 /* TODO FORM */
-.js-toDoForm{
+.js-toDoForm {
   margin: 10px 0 30px;
 }
 .js-toDoForm input {
@@ -119,47 +118,44 @@ header .js-weather{
   color: #fff;
   font-size: 20px;
   border-bottom: 1px solid #fff;
-  
 }
 
 /* TODO List */
 .js-toDoList {
-  
   width: 300px;
   height: 200px;
   border-radius: 5px;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.3);
-  
 }
 
-.js-toDoList li{
-  position:relative;
+.js-toDoList li {
+  position: relative;
   padding: 5px;
   font-size: 18px;
   margin-bottom: 7px;
 }
-.js-toDoList li::before{
-  content: '';
+.js-toDoList li::before {
+  content: "";
   width: 3px;
   height: 3px;
-  position:absolute;
-  top:0;
-  bottom:0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
   margin: auto;
   display: inline-block;
   background-color: #fff;
   margin-right: 10px;
 }
-.js-toDoList li span{
+.js-toDoList li span {
   color: #ecf0f1;
   margin-left: 10px;
   font-size: 22px;
   font-weight: 500;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
-.js-toDoList li button{
+.js-toDoList li button {
   margin-left: 20px;
   border: none;
   background-color: transparent;
