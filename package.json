@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ikyoon0619/Chrome_app-VanillaJS#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
