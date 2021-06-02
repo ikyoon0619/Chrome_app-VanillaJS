@@ -26,6 +26,19 @@ body {
   animation: fadeIn 0.5s linear;
 }
 
+/* Vendor Prefix(브라우저 업체별 접두사) */
+.input--text::-webkit-input-placeholder {
+  color: #dfe6e9;
+}
+
+.input--text::-ms-input-placeholder {
+  color: #dfe6e9;
+}
+
+.input--text::-moz-input-placeholder {
+  color: #dfe6e9;
+}
+
 /* HEADER */
 header {
   width: 100%;
@@ -36,6 +49,7 @@ header {
 }
 header .search-group {
   margin: 0 30px;
+  position: relative;
 }
 #searchGoogle {
   display: flex;
@@ -43,29 +57,33 @@ header .search-group {
   align-items: center;
 }
 #search {
-  width: 0;
+  width: 36px;
+  height: 34px;
   padding: 8px;
   border: none;
   outline: none;
   font-size: 16px;
   color: #fff;
   background-color: transparent;
-  transition: 0.7s;
+  transition: width 0.6s;
 }
-#search.show {
-  display: block;
-  border-bottom: 2px solid #2c3e50;
+#search:focus {
   width: 300px;
+  border-bottom: 2px solid #2c3e50;
 }
-#search.show .searchBtn {
-  display: none;
-}
+
 header .search-group .searchBtn {
-  cursor: pointer;
+  position: absolute;
+  height: 24px;
+  top: 0;
+  bottom: 0;
+  right: 5px;
   color: #fff;
   text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
 }
-
+header .search-group.focused .searchBtn {
+  opacity: 0;
+}
 header .js-weather {
   margin: 0 30px;
 }

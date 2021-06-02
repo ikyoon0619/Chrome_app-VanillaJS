@@ -1,7 +1,17 @@
-const searchBtn = document.querySelector('.searchBtn');
-const search = document.querySelector('#search');
+const searchEl = document.querySelector('.search-group');
+const searchInputEl = searchEl.querySelector('input');
 
-searchBtn.addEventListener('click',()=>{
-  search.classList.toggle('show')
+
+searchEl.addEventListener('click',()=>{
+  searchInputEl.focus();
 })
 
+searchInputEl.addEventListener('focus',()=>{
+  searchEl.classList.add('focused');
+  searchInputEl.setAttribute('placeholder',"Google 통합검색")
+})
+
+searchInputEl.addEventListener("blur", () => {
+  searchEl.classList.remove("focused");
+  searchInputEl.setAttribute("placeholder", "");
+});
