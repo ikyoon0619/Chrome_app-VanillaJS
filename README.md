@@ -2,7 +2,7 @@
 
 크롬 웹 스토어에 있는 Momentum 을 클론 코딩 하였습니다.
 
-[DEMO]("https://ikyoon0619.github.io/Chrome_app-VanillaJS/")
+[DEMO](https://ikyoon0619.github.io/Chrome_app-VanillaJS/)
 
 ## 💻 프로젝트 기간
 
@@ -26,5 +26,5 @@
 
 이미지 출처 및 프로젝트 정보
 
-- [Unsplash]("https://unsplash.com/")
-- [노마드코더 By 니콜라스]("https://nomadcoders.co/)
+- [Unsplash](https://unsplash.com/)
+- [노마드코더 By 니콜라스](https://nomadcoders.co/)
